@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-size: 14px;
+	color: #333;
+}
+input {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: solid 2px #CCC;
+	padding: 4px 4px;
+	margin-right: 6px;
+}
+input:active 
+{
+	border-color: #3A6A6E;
+}
+
+/* Vanadium Styles */ 
+div.vanadium-invalid {
+  border-color: red !important;
+  border-style: solid !important;
+}
+div.vanadium-valid {
+  border-color: green !important;
+  border-style: solid !important;
+}
+.vanadium-message-value {
+  font-style: italic;
+  text-decoration: underline;
+}
+.vanadium-advice.vanadium-invalid, .vanadium-advice.vanadium-invalid * {
+  color: red;
+}
+input.vanadium-valid {
+  border-color: greenyellow;
+}
+input.vanadium-invalid {
+  border-color: pink;
+}
+#messages {
+  height: 70px;
+  padding: 0;
+  border-color: yellow;
+}
+input.vanadium-valid ~ .vanadium-valid-advice {
+  display: inline !important;
+  color: green;
+}
