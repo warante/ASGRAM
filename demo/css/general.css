@@ -1,0 +1,102 @@
+.posible
+{
+	color: #00F; 
+	text-decoration:underline; 
+	cursor: pointer; 
+	font-weight:bold;
+}
+
+p{
+	text-align:justify;
+}
+
+.visto
+{
+	color: #FF8C00; 
+	text-decoration:underline; 
+	cursor: pointer; 
+}
+
+.oculto{
+	visibility:hidden; 
+	width:0px; 
+	height:0px;
+}
+
+.texto
+{
+	background-color: #e3e3e3;
+	border-radius: 20px;
+	margin: 5px;
+}
+
+#ventana
+{
+	position: fixed; 
+	width: 350px; 
+	height: 300px; 
+	top: 0; 
+	left: 0; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-weight: normal; 
+	border: #333333 3px solid; 
+	background-color: #FAFAFA; 
+	color: #000000; 
+	display:none;
+	margin-top: 10px;
+}
+
+.pLinea
+{
+	margin-left: 5px;
+}
+
+.sLinea
+{
+	margin-left: 18px;
+}
+
+.ejemplo
+{
+	margin-left: 18px;
+}
+
+.vanadium-invalid
+{
+	color: red;
+}
+
+.borde
+{ 
+   border: 2px solid #303a70; 
+   padding: 5px;
+   width: 100%; 
+} 
+
+@media screen and (min-width: 769px)
+{
+	#texto{height: 200px;}
+	.borde{height: 200px;}
+}
+
+@media screen and (min-width: 1200px)
+{
+	#texto{height: 400px;}
+	.borde{height: 400px;}
+}
+
+@media screen and (max-width: 768px)
+{
+	#texto{height: 70px;}
+	.borde{height: 70px;}
+}
+
+
+
+
+
+
+
+	
+	
